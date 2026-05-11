@@ -287,13 +287,13 @@
     <footer class="bg-gradient-to-r from-[#ff00001a] to-[#ff00001a]">
         <div class="max-w-7xl mx-auto flex items-center justify-between py-10">
             <img src="./images/cup.png" alt="cup">
-            <div class="flex items-center gap-5">
+            <div class="flex flex-col md:flex-row items-center gap-5">
                 <p class="text-2xl font-bold">Ready to get started</p>
-                <input class="bg-white py-2" type="text" name="" id="">
+                <input class="bg-white py-2 border-none rounded-lg" type="text" name="" id="">
             </div>
         </div>
         <!-- All Links -->
-        <div class="max-w-7xl mx-auto flex justify-between py-10">
+        <div class="max-w-7xl mx-auto flex justify-between flex-wrap py-10">
             <div class="flex flex-col gap-2">
                 <p class="text-xl font-bold">Quick Links</p>
                 <a href="#">Home</a>
@@ -315,10 +315,11 @@
             </div>
             <div class="flex flex-col gap-2">
                 <p class="text-xl font-bold max-w-[13.5rem]">Subscribe to our newsletter</p>
-                <div class="my-2">
-                    <input class="outline-none border-t-0 border-l-0 border-r-0 border-b-2 py-2" type="email" name=""
-                        id="" placeholder="Email address">
-                    <button class="bg-black rounded-full"><span><i
+                <div class="my-2 flex flex-col gap-2 md:gap-0 md:flex-row ">
+                    <input
+                        class="outline-none border-t-0 border-l-0 border-r-0 border-b-2 py-2 max-w-[150px] md:max-w-0;"
+                        type="email" name="" id="" placeholder="Email address">
+                    <button class="bg-black rounded-full cursor-pointer"><span><i
                                 class="fa-solid fa-angle-right text-white"></i></span></button>
                 </div>
                 <div>
